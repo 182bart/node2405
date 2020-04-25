@@ -4,7 +4,7 @@ const app = express();
 //ustawienie, ze moja aplikacja musi korzystac z silnika hbs
 app.set("view engine", 'hbs')
 //gdy uzytkownik wchodzi na stronę
-app.get('/', function (req, res) {
+app.get('/index', function (req, res) {
 res.render('index',{pageTitle: "Lekcja01"})
 
 })
