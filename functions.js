@@ -2,7 +2,7 @@ const sayHello = () => { console.log("Hello World") }
 const add = (a, b) => {
 console.log(a + b)
 }
-const someTitle =" exanple example"
+const someTitle =" zajęcia projektowe"
 module.exports = {
 sayHello,
 add,
